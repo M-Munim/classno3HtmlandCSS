@@ -4,35 +4,514 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Services | Munim - Creative Developer & Designer</title>
 
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Main Stylesheet -->
     <link rel="stylesheet" href="../styles/style.css">
 </head>
 
 <body>
-    <!-- navbar start -->
-    <header>
-        <nav>
-            <div>
+    <!-- Navigation -->
+    <nav class="navbar scrolled">
+        <div class="container">
+            <a href="../index.html" class="nav-logo">
                 <img src="https://w7.pngwing.com/pngs/786/126/png-transparent-logo-contracting-photography-logo-symbol.png"
-                    alt="logo" class="logo">
+                    alt="Munim Logo">
+                <span class="nav-logo-text">Munim</span>
+            </a>
+
+            <div class="nav-menu">
+                <a href="../index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="services.html" class="nav-link active">Services</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="contact.html" class="btn btn-primary nav-cta">Hire Me</a>
             </div>
 
-            <div>
-                <ul class="navlinks">
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href=""><i class="fa-solid fa-envelope"></i></a></li>
-                </ul>
+            <button class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="page-header-content">
+            <h1>My Services</h1>
+            <div class="page-breadcrumb">
+                <a href="../index.html">Home</a>
+                <i class="fa-solid fa-chevron-right"></i>
+                <span>Services</span>
             </div>
-        </nav>
-    </header>
-    <!-- navbar end -->
+        </div>
+    </section>
 
+    <!-- Services Overview Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">What I Offer</span>
+                <h2 class="section-title">Services That Drive Results</h2>
+                <p class="section-subtitle">
+                    I offer a comprehensive range of digital services designed to help your business
+                    grow and succeed in the digital landscape.
+                </p>
+            </div>
 
-    <h1>SERVICES PAGE</h1>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Custom websites and web applications built with modern technologies
+                        for optimal performance and scalability.</p>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> Custom Website Development</li>
+                        <li><i class="fa-solid fa-check"></i> E-commerce Solutions</li>
+                        <li><i class="fa-solid fa-check"></i> CMS Integration</li>
+                        <li><i class="fa-solid fa-check"></i> API Development</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-outline">Get Started</a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-palette"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>User-centered design solutions that create engaging, intuitive
+                        experiences for your target audience.</p>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> User Interface Design</li>
+                        <li><i class="fa-solid fa-check"></i> User Experience Design</li>
+                        <li><i class="fa-solid fa-check"></i> Prototyping & Wireframing</li>
+                        <li><i class="fa-solid fa-check"></i> Design Systems</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-outline">Get Started</a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-mobile-screen"></i>
+                    </div>
+                    <h3>Mobile App Development</h3>
+                    <p>Cross-platform mobile applications that provide seamless
+                        experiences on iOS and Android devices.</p>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> React Native Apps</li>
+                        <li><i class="fa-solid fa-check"></i> Flutter Development</li>
+                        <li><i class="fa-solid fa-check"></i> App Store Optimization</li>
+                        <li><i class="fa-solid fa-check"></i> Maintenance & Support</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-outline">Get Started</a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    </div>
+                    <h3>Brand Identity</h3>
+                    <p>Memorable brand identities that communicate your values
+                        and resonate with your target audience.</p>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> Logo Design</li>
+                        <li><i class="fa-solid fa-check"></i> Brand Guidelines</li>
+                        <li><i class="fa-solid fa-check"></i> Visual Identity</li>
+                        <li><i class="fa-solid fa-check"></i> Marketing Materials</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-outline">Get Started</a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-server"></i>
+                    </div>
+                    <h3>Backend Development</h3>
+                    <p>Robust backend solutions with secure databases, APIs,
+                        and server architecture for your applications.</p>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> Database Design</li>
+                        <li><i class="fa-solid fa-check"></i> RESTful APIs</li>
+                        <li><i class="fa-solid fa-check"></i> Authentication Systems</li>
+                        <li><i class="fa-solid fa-check"></i> Cloud Infrastructure</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-outline">Get Started</a>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-chart-line"></i>
+                    </div>
+                    <h3>SEO & Performance</h3>
+                    <p>Optimization services to improve your website's visibility
+                        and performance across all platforms.</p>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> SEO Optimization</li>
+                        <li><i class="fa-solid fa-check"></i> Performance Audit</li>
+                        <li><i class="fa-solid fa-check"></i> Speed Optimization</li>
+                        <li><i class="fa-solid fa-check"></i> Analytics Setup</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-outline">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="section section-light">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">How I Work</span>
+                <h2 class="section-title">My Development Process</h2>
+                <p class="section-subtitle">
+                    A streamlined process that ensures quality delivery and client satisfaction.
+                </p>
+            </div>
+
+            <div class="process-grid">
+                <div class="process-card">
+                    <div class="process-number">01</div>
+                    <h3>Discovery</h3>
+                    <p>Understanding your business goals, target audience, and project requirements through in-depth consultations.</p>
+                </div>
+
+                <div class="process-card">
+                    <div class="process-number">02</div>
+                    <h3>Planning</h3>
+                    <p>Creating detailed project plans, wireframes, and technical specifications to ensure alignment on deliverables.</p>
+                </div>
+
+                <div class="process-card">
+                    <div class="process-number">03</div>
+                    <h3>Development</h3>
+                    <p>Building your solution with clean code, modern technologies, and regular progress updates throughout.</p>
+                </div>
+
+                <div class="process-card">
+                    <div class="process-number">04</div>
+                    <h3>Launch</h3>
+                    <p>Thorough testing, deployment, and post-launch support to ensure everything runs smoothly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Tech Stack</span>
+                <h2 class="section-title">Technologies I Use</h2>
+                <p class="section-subtitle">
+                    I work with the latest technologies to deliver modern, scalable solutions.
+                </p>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fa-brands fa-react"></i>
+                    </div>
+                    <h3>React & Next.js</h3>
+                    <p>Modern frontend frameworks for building interactive user interfaces.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fa-brands fa-node-js"></i>
+                    </div>
+                    <h3>Node.js & Express</h3>
+                    <p>Scalable backend solutions with JavaScript runtime environment.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fa-brands fa-python"></i>
+                    </div>
+                    <h3>Python & Django</h3>
+                    <p>Robust web applications with Python's powerful ecosystem.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+                    <h3>MongoDB & PostgreSQL</h3>
+                    <p>Flexible database solutions for any data requirement.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="section section-light">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Pricing</span>
+                <h2 class="section-title">Transparent Pricing Plans</h2>
+                <p class="section-subtitle">
+                    Choose a plan that fits your needs. All plans include free consultation and support.
+                </p>
+            </div>
+
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Starter</h3>
+                    <div class="pricing-price">$499<span>/project</span></div>
+                    <p class="pricing-description">Perfect for small businesses and startups getting started online.</p>
+                    <ul class="pricing-features">
+                        <li><i class="fa-solid fa-check"></i> Single Page Website</li>
+                        <li><i class="fa-solid fa-check"></i> Responsive Design</li>
+                        <li><i class="fa-solid fa-check"></i> Contact Form</li>
+                        <li><i class="fa-solid fa-check"></i> Basic SEO Setup</li>
+                        <li><i class="fa-solid fa-check"></i> 1 Week Delivery</li>
+                        <li><i class="fa-solid fa-check"></i> 30 Days Support</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-outline">Get Started</a>
+                </div>
+
+                <div class="pricing-card featured">
+                    <span class="pricing-label">Most Popular</span>
+                    <h3>Professional</h3>
+                    <div class="pricing-price">$1,499<span>/project</span></div>
+                    <p class="pricing-description">Ideal for growing businesses needing a comprehensive web presence.</p>
+                    <ul class="pricing-features">
+                        <li><i class="fa-solid fa-check"></i> Multi-Page Website (Up to 10)</li>
+                        <li><i class="fa-solid fa-check"></i> Custom UI/UX Design</li>
+                        <li><i class="fa-solid fa-check"></i> CMS Integration</li>
+                        <li><i class="fa-solid fa-check"></i> Advanced SEO</li>
+                        <li><i class="fa-solid fa-check"></i> 2-3 Weeks Delivery</li>
+                        <li><i class="fa-solid fa-check"></i> 90 Days Support</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-white">Get Started</a>
+                </div>
+
+                <div class="pricing-card">
+                    <h3>Enterprise</h3>
+                    <div class="pricing-price">$4,999<span>+</span></div>
+                    <p class="pricing-description">For large organizations needing custom solutions and ongoing support.</p>
+                    <ul class="pricing-features">
+                        <li><i class="fa-solid fa-check"></i> Custom Web Application</li>
+                        <li><i class="fa-solid fa-check"></i> Full-Stack Development</li>
+                        <li><i class="fa-solid fa-check"></i> API Integration</li>
+                        <li><i class="fa-solid fa-check"></i> E-commerce Features</li>
+                        <li><i class="fa-solid fa-check"></i> Custom Timeline</li>
+                        <li><i class="fa-solid fa-check"></i> 1 Year Support</li>
+                    </ul>
+                    <a href="contact.html" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">FAQ</span>
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">
+                    Find answers to common questions about my services and process.
+                </p>
+            </div>
+
+            <div class="faq-grid">
+                <div class="faq-item active">
+                    <button class="faq-question">
+                        What is your typical project timeline?
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        Project timelines vary based on complexity and scope. A simple landing page typically
+                        takes 1-2 weeks, while more complex web applications can take 4-8 weeks or more.
+                        I'll provide a detailed timeline during our initial consultation.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Do you offer maintenance and support?
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        Yes! All my projects include a support period (30-365 days depending on the plan).
+                        After that, I offer monthly maintenance packages to keep your website secure,
+                        updated, and running smoothly.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What technologies do you specialize in?
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        I specialize in modern web technologies including React, Next.js, Node.js, Python,
+                        and various databases. I also work with WordPress, Shopify, and other CMS platforms
+                        based on project requirements.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How do you handle project communication?
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        I believe in transparent communication. You'll receive regular updates through your
+                        preferred channel (email, Slack, or video calls). I also provide access to project
+                        management tools where you can track progress in real-time.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What is your payment structure?
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        I typically work with a 50% upfront deposit and 50% upon completion for smaller
+                        projects. For larger projects, we can arrange milestone-based payments. I accept
+                        bank transfers, PayPal, and major credit cards.
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Do you work with international clients?
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        I work with clients worldwide. I'm experienced in remote collaboration and
+                        can accommodate different time zones for meetings. Communication is never
+                        an issue regardless of where you're located.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta section">
+        <div class="container">
+            <h2 class="cta-title">Ready to Start Your Project?</h2>
+            <p class="cta-text">
+                Let's discuss your project requirements and create something amazing together.
+                Get a free consultation today!
+            </p>
+            <div class="cta-buttons">
+                <a href="contact.html" class="btn btn-white">
+                    <i class="fa-solid fa-envelope"></i>
+                    Get Free Quote
+                </a>
+                <a href="https://wa.me/1234567890" class="btn btn-secondary" style="border-color: rgba(255,255,255,0.3); color: white;">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    Chat on WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="../index.html" class="nav-logo">
+                        <img src="https://w7.pngwing.com/pngs/786/126/png-transparent-logo-contracting-photography-logo-symbol.png"
+                            alt="Munim Logo">
+                        <span class="nav-logo-text">Munim</span>
+                    </a>
+                    <p>Crafting digital experiences that inspire, engage, and deliver results. Let's build something amazing together.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Web Development</a></li>
+                        <li><a href="services.html">UI/UX Design</a></li>
+                        <li><a href="services.html">Mobile Apps</a></li>
+                        <li><a href="services.html">Branding</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Contact</h4>
+                    <ul class="footer-links">
+                        <li><a href="mailto:hello@munim.dev">hello@munim.dev</a></li>
+                        <li><a href="tel:+1234567890">+1 (234) 567-890</a></li>
+                        <li><a href="#">Peshawar, Pakistan</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="footer-copyright">&copy; 2026 Munim. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/1234567890" class="whatsapp-float" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- FAQ Toggle Script -->
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // FAQ accordion
+        document.querySelectorAll('.faq-question').forEach(button => {
+            button.addEventListener('click', () => {
+                const faqItem = button.parentElement;
+                const isActive = faqItem.classList.contains('active');
+
+                // Close all FAQ items
+                document.querySelectorAll('.faq-item').forEach(item => {
+                    item.classList.remove('active');
+                });
+
+                // If it wasn't active, open it
+                if (!isActive) {
+                    faqItem.classList.add('active');
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>

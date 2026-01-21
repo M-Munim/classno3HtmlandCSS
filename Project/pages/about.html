@@ -4,35 +4,472 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About Me | Munim - Creative Developer & Designer</title>
 
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Main Stylesheet -->
     <link rel="stylesheet" href="../styles/style.css">
 </head>
 
 <body>
-    <!-- navbar start -->
-    <header>
-        <nav>
-            <div>
+    <!-- Navigation -->
+    <nav class="navbar scrolled">
+        <div class="container">
+            <a href="../index.html" class="nav-logo">
                 <img src="https://w7.pngwing.com/pngs/786/126/png-transparent-logo-contracting-photography-logo-symbol.png"
-                    alt="logo" class="logo">
+                    alt="Munim Logo">
+                <span class="nav-logo-text">Munim</span>
+            </a>
+
+            <div class="nav-menu">
+                <a href="../index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link active">About</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="contact.html" class="btn btn-primary nav-cta">Hire Me</a>
             </div>
 
-            <div>
-                <ul class="navlinks">
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href=""><i class="fa-solid fa-envelope"></i></a></li>
-                </ul>
+            <button class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="page-header-content">
+            <h1>About Me</h1>
+            <div class="page-breadcrumb">
+                <a href="../index.html">Home</a>
+                <i class="fa-solid fa-chevron-right"></i>
+                <span>About</span>
             </div>
-        </nav>
-    </header>
-    <!-- navbar end -->
+        </div>
+    </section>
 
+    <!-- About Story Section -->
+    <section class="about-preview section">
+        <div class="container">
+            <div class="about-image">
+                <img src="https://img.freepik.com/premium-psd/png-man-indian-confident-person-office_53876-621203.jpg?w=360"
+                    alt="Munim - Creative Developer" class="about-image-main">
+                <div class="about-experience-badge">
+                    <div class="about-experience-badge-number">2.5+</div>
+                    <div class="about-experience-badge-text">Years Experience</div>
+                </div>
+            </div>
 
-    <h1>ABOUT PAGE</h1>
+            <div class="about-content">
+                <span class="section-label">My Story</span>
+                <h2 class="section-title">Passionate About Creating Digital Excellence</h2>
+                <p style="color: var(--gray-400); margin-bottom: 20px;">
+                    Hello! I'm Munim, a creative developer and designer based in Peshawar, Pakistan.
+                    My journey into the world of technology began with a simple curiosity about how
+                    websites work, which quickly transformed into a deep passion for building
+                    digital experiences.
+                </p>
+                <p style="color: var(--gray-400); margin-bottom: 20px;">
+                    With over 2.5 years of professional experience, I've had the privilege of working
+                    with startups, agencies, and established businesses across various industries.
+                    Each project has taught me something new and reinforced my belief that great
+                    design and clean code can truly transform businesses.
+                </p>
+                <p style="color: var(--gray-400);">
+                    When I'm not coding, you'll find me exploring new design trends, contributing
+                    to open-source projects, or sharing my knowledge through technical articles.
+                    I believe in continuous learning and staying updated with the latest technologies.
+                </p>
+
+                <div class="contact-social" style="margin-top: 30px;">
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-bar">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3>100+</h3>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="stat-item">
+                    <h3>50+</h3>
+                    <p>Happy Clients</p>
+                </div>
+                <div class="stat-item">
+                    <h3>2.5+</h3>
+                    <p>Years Experience</p>
+                </div>
+                <div class="stat-item">
+                    <h3>15+</h3>
+                    <p>Awards Won</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills & Technologies Section -->
+    <section class="skills section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Skills</span>
+                <h2 class="section-title">Technologies I Work With</h2>
+                <p class="section-subtitle">
+                    I'm proficient in a wide range of technologies and constantly expanding my skill set.
+                </p>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fa-brands fa-html5"></i>
+                    </div>
+                    <h3>HTML5 & CSS3</h3>
+                    <p>Semantic markup and modern styling with Flexbox, Grid, and animations.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fa-brands fa-js"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <p>ES6+, DOM manipulation, async programming, and modern frameworks.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fa-brands fa-react"></i>
+                    </div>
+                    <h3>React.js</h3>
+                    <p>Component-based architecture, hooks, state management, and Next.js.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fa-brands fa-node-js"></i>
+                    </div>
+                    <h3>Node.js</h3>
+                    <p>Server-side JavaScript, Express.js, RESTful APIs, and database integration.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fa-brands fa-python"></i>
+                    </div>
+                    <h3>Python</h3>
+                    <p>Django, Flask, automation scripts, and data processing.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+                    <h3>Databases</h3>
+                    <p>MongoDB, PostgreSQL, MySQL, and Firebase for data storage solutions.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fa-brands fa-figma"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Figma, Adobe XD, prototyping, wireframing, and design systems.</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fa-brands fa-git-alt"></i>
+                    </div>
+                    <h3>DevOps & Tools</h3>
+                    <p>Git, Docker, CI/CD pipelines, AWS, and cloud deployment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Timeline Section -->
+    <section class="experience section section-light">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Experience</span>
+                <h2 class="section-title">My Professional Journey</h2>
+                <p class="section-subtitle">
+                    A timeline of my career growth and the companies I've had the pleasure to work with.
+                </p>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2024 - Present</span>
+                        <h3>Senior Full Stack Developer</h3>
+                        <h4>ABC Software Solutions</h4>
+                        <p>Leading a team of developers to build enterprise-level applications.
+                            Architecting scalable solutions, conducting code reviews, and mentoring
+                            junior developers. Successfully delivered 15+ projects for Fortune 500 clients.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2023 - 2024</span>
+                        <h3>Full Stack Developer</h3>
+                        <h4>XYZ Tech Inc.</h4>
+                        <p>Developed and maintained multiple web applications using React, Node.js,
+                            and cloud technologies. Improved application performance by 40% through
+                            optimization techniques. Collaborated with cross-functional teams.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2022 - 2023</span>
+                        <h3>Frontend Developer</h3>
+                        <h4>Digital Agency Co.</h4>
+                        <p>Created responsive websites and interactive user interfaces for clients
+                            across various industries. Implemented modern CSS techniques and JavaScript
+                            frameworks to deliver pixel-perfect designs.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2021 - 2022</span>
+                        <h3>Junior Web Developer</h3>
+                        <h4>StartUp Hub</h4>
+                        <p>Began my professional career building web applications and learning
+                            industry best practices. Gained experience in agile methodologies,
+                            version control, and collaborative development.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Values</span>
+                <h2 class="section-title">What I Stand For</h2>
+                <p class="section-subtitle">
+                    These core values guide my work and define my approach to every project.
+                </p>
+            </div>
+
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fa-solid fa-gem"></i>
+                    </div>
+                    <h3>Quality First</h3>
+                    <p>I never compromise on quality. Every line of code I write is crafted with
+                        care, ensuring maintainability, scalability, and performance.</p>
+                </div>
+
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fa-solid fa-handshake"></i>
+                    </div>
+                    <h3>Integrity</h3>
+                    <p>I believe in honest communication and transparent processes. I always
+                        deliver what I promise and keep clients informed throughout the project.</p>
+                </div>
+
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fa-solid fa-lightbulb"></i>
+                    </div>
+                    <h3>Innovation</h3>
+                    <p>I stay ahead of the curve by continuously learning new technologies and
+                        implementing creative solutions to complex problems.</p>
+                </div>
+
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fa-solid fa-users"></i>
+                    </div>
+                    <h3>Collaboration</h3>
+                    <p>Great work comes from great teamwork. I value open communication and
+                        believe in working closely with clients to achieve shared goals.</p>
+                </div>
+
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fa-solid fa-clock"></i>
+                    </div>
+                    <h3>Reliability</h3>
+                    <p>Meeting deadlines is non-negotiable. I take pride in delivering projects
+                        on time without sacrificing quality or cutting corners.</p>
+                </div>
+
+                <div class="value-card">
+                    <div class="value-icon">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <h3>Passion</h3>
+                    <p>I love what I do, and it shows in my work. Every project is an opportunity
+                        to create something meaningful and impactful.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section section-light">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Education</span>
+                <h2 class="section-title">Academic Background</h2>
+                <p class="section-subtitle">
+                    My educational foundation that supports my professional expertise.
+                </p>
+            </div>
+
+            <div class="services-grid" style="grid-template-columns: repeat(2, 1fr);">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <h3>Bachelor in Computer Science</h3>
+                    <p style="color: var(--primary); margin-bottom: 10px;">University of Peshawar</p>
+                    <p>Graduated with honors, specializing in Software Engineering and Web Technologies.
+                        Completed multiple projects and participated in coding competitions.</p>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> CGPA: 3.8/4.0</li>
+                        <li><i class="fa-solid fa-check"></i> Dean's List - All Semesters</li>
+                        <li><i class="fa-solid fa-check"></i> Best Final Year Project Award</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-certificate"></i>
+                    </div>
+                    <h3>Professional Certifications</h3>
+                    <p style="color: var(--primary); margin-bottom: 10px;">Continuous Learning</p>
+                    <p>I believe in lifelong learning and regularly pursue certifications to stay
+                        current with industry standards and best practices.</p>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> AWS Certified Developer</li>
+                        <li><i class="fa-solid fa-check"></i> Google UX Design Certificate</li>
+                        <li><i class="fa-solid fa-check"></i> Meta Frontend Developer</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta section">
+        <div class="container">
+            <h2 class="cta-title">Let's Work Together</h2>
+            <p class="cta-text">
+                I'm always excited to take on new challenges and collaborate with amazing people.
+                If you have a project in mind, let's talk!
+            </p>
+            <div class="cta-buttons">
+                <a href="contact.html" class="btn btn-white">
+                    <i class="fa-solid fa-envelope"></i>
+                    Get In Touch
+                </a>
+                <a href="services.html" class="btn btn-secondary" style="border-color: rgba(255,255,255,0.3); color: white;">
+                    <i class="fa-solid fa-briefcase"></i>
+                    View Services
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="../index.html" class="nav-logo">
+                        <img src="https://w7.pngwing.com/pngs/786/126/png-transparent-logo-contracting-photography-logo-symbol.png"
+                            alt="Munim Logo">
+                        <span class="nav-logo-text">Munim</span>
+                    </a>
+                    <p>Crafting digital experiences that inspire, engage, and deliver results. Let's build something amazing together.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Web Development</a></li>
+                        <li><a href="services.html">UI/UX Design</a></li>
+                        <li><a href="services.html">Mobile Apps</a></li>
+                        <li><a href="services.html">Branding</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Contact</h4>
+                    <ul class="footer-links">
+                        <li><a href="mailto:hello@munim.dev">hello@munim.dev</a></li>
+                        <li><a href="tel:+1234567890">+1 (234) 567-890</a></li>
+                        <li><a href="#">Peshawar, Pakistan</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="footer-copyright">&copy; 2026 Munim. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/1234567890" class="whatsapp-float" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Navbar Scroll Script -->
+    <script>
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
 </body>
 
 </html>

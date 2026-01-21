@@ -1,186 +1,550 @@
-<!-- 5th class 1/17/2026 -->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document - 1</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Munim | Creative Developer & Designer</title>
 
-   <!-- font awesome cdn link (for icons) -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-   <!-- main style sheet -->
-   <link rel="stylesheet" href="styles/style.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
-   <div class="iconDiv">
-      <a href="">
-         <i class="fa-brands fa-whatsapp"></i>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="nav-logo">
+                <img src="https://w7.pngwing.com/pngs/786/126/png-transparent-logo-contracting-photography-logo-symbol.png"
+                    alt="Munim Logo">
+                <span class="nav-logo-text">Munim</span>
+            </a>
 
-      </a>
-   </div>
-   <!-- navbar start -->
-   <header>
-      <nav>
-         <div>
-            <img src="https://w7.pngwing.com/pngs/786/126/png-transparent-logo-contracting-photography-logo-symbol.png"
-               alt="logo" class="logo">
-         </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="pages/about.html" class="nav-link">About</a>
+                <a href="pages/services.html" class="nav-link">Services</a>
+                <a href="pages/contact.html" class="nav-link">Contact</a>
+                <a href="pages/contact.html" class="btn btn-primary nav-cta">Hire Me</a>
+            </div>
 
-         <div>
-            <ul class="navlinks">
-               <li><a href="">Home</a></li>
-               <li><a href="pages/about.html">About</a></li>
-               <li><a href="pages/services.html">Services</a></li>
-               <li><a href="">Contact</a></li>
-               <li><a href=""><i class="fa-solid fa-envelope"></i></a></li>
-            </ul>
-         </div>
-      </nav>
-   </header>
-   <!-- navbar end -->
+            <button class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
 
-   <!-- section 2 start -->
-   <section class="section2">
-      <div class="sect2Div1">
-         <img src="https://img.freepik.com/premium-psd/png-man-indian-confident-person-office_53876-621203.jpg?w=360"
-            alt="">
-      </div>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-glow hero-glow-1"></div>
+        <div class="hero-glow hero-glow-2"></div>
 
-      <div class="sect2Div2">
-         <h1>HI i am Munim </h1>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis minus quidem neque aliquid molestias
-            blanditiis, sint sit qui eaque officiis dicta accusantium accusamus, similique excepturi mollitia magni
-            laboriosam. Molestias, tempora!</p>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fa-solid fa-circle"></i>
+                    Available for freelance work
+                </div>
 
-         <div class="sect2Div2Links">
-            <a href=""><i class="fa-brands fa-linkedin"></i></a>
-            <a href=""><i class="fa-brands fa-facebook"></i></a>
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-         </div>
-      </div>
-   </section>
-   <!-- section 2 end -->
+                <h1 class="hero-title">
+                    <span>Hi, I'm Munim</span>
+                    <span class="text-gradient">Creative Developer</span>
+                </h1>
 
-   <!-- section 3 start -->
-   <section class="section3">
-      <div>
-         <h2>Projects Deliverd</h2>
-         <h3>100 +</h3>
-      </div>
+                <p class="hero-description">
+                    I craft beautiful, user-centric digital experiences that drive results.
+                    Specializing in web development, UI/UX design, and brand identity solutions
+                    that help businesses stand out in the digital landscape.
+                </p>
 
-      <div>
-         <h2>Happy Clients </h2>
-         <h3>10 +</h3>
-      </div>
+                <div class="hero-buttons">
+                    <a href="pages/contact.html" class="btn btn-primary">
+                        <i class="fa-solid fa-paper-plane"></i>
+                        Start a Project
+                    </a>
+                    <a href="#portfolio" class="btn btn-secondary">
+                        <i class="fa-solid fa-eye"></i>
+                        View My Work
+                    </a>
+                </div>
 
-      <div>
-         <h2>Years of Exp</h2>
-         <h3>2.5 years</h3>
-      </div>
-   </section>
-   <!-- section 3 start -->
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <div class="hero-stat-number">100+</div>
+                        <div class="hero-stat-label">Projects</div>
+                    </div>
+                    <div class="hero-stat">
+                        <div class="hero-stat-number">50+</div>
+                        <div class="hero-stat-label">Clients</div>
+                    </div>
+                    <div class="hero-stat">
+                        <div class="hero-stat-number">2.5+</div>
+                        <div class="hero-stat-label">Years Exp</div>
+                    </div>
+                </div>
+            </div>
 
+            <div class="hero-image">
+                <div class="hero-image-wrapper">
+                    <img src="https://img.freepik.com/premium-psd/png-man-indian-confident-person-office_53876-621203.jpg?w=360"
+                        alt="Munim - Creative Developer">
 
-   <!-- section 4 start  -->
-   <section class="section4">
-      <h2 class="section4heading">Experiences</h2>
+                    <div class="hero-floating-card card-1 animate-float">
+                        <i class="fa-solid fa-code"></i>
+                        <div class="hero-floating-card-text">
+                            <strong>Full Stack</strong>
+                            <span>Developer</span>
+                        </div>
+                    </div>
 
-      <div class="section4Cards">
-         <div>
-            <h2>Abc Softwares</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, omnis dolor, quas dolore aut et, tempora
-               id inventore nam architecto totam. Voluptate officia blanditiis accusamus minima, quod eveniet architecto
-               fuga?</p>
-         </div>
+                    <div class="hero-floating-card card-2 animate-float" style="animation-delay: 1s;">
+                        <i class="fa-solid fa-star"></i>
+                        <div class="hero-floating-card-text">
+                            <strong>5.0 Rating</strong>
+                            <span>On Upwork</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-         <div>
-            <h2>xyz Softwares</h2>
-            <ul>
-               <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. At, est!</li>
-               <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum libero dignissimos facilis officiis
-                  illo soluta!</li>
-               <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quam excepturi ipsa earum, reiciendis
-                  nemo consectetur quos a labore officiis?</li>
-               <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
-            </ul>
-         </div>
+    <!-- About Preview Section -->
+    <section class="about-preview section">
+        <div class="container">
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1549692520-acc6669e2f0c?w=600"
+                    alt="Developer workspace" class="about-image-main">
+                <div class="about-experience-badge">
+                    <div class="about-experience-badge-number">2.5+</div>
+                    <div class="about-experience-badge-text">Years Experience</div>
+                </div>
+            </div>
 
-         <div>
-            <h2>Abc Softwares</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, omnis dolor, quas dolore aut et, tempora
-               id inventore nam architecto totam. Voluptate officia blanditiis accusamus minima, quod eveniet architecto
-               fuga?</p>
-         </div>
-      </div>
-   </section>
-   <!-- section 4 end  -->
+            <div class="about-content">
+                <span class="section-label">About Me</span>
+                <h2 class="section-title">Turning Ideas Into Digital Reality</h2>
+                <p class="section-subtitle" style="text-align: left; margin: 0;">
+                    I'm a passionate developer and designer with a keen eye for detail.
+                    I believe in creating digital solutions that not only look stunning
+                    but also deliver exceptional user experiences and measurable results.
+                </p>
 
+                <div class="about-features">
+                    <div class="about-feature">
+                        <i class="fa-solid fa-check-circle"></i>
+                        <div class="about-feature-text">
+                            <strong>Clean Code</strong>
+                            <span>Maintainable & scalable</span>
+                        </div>
+                    </div>
+                    <div class="about-feature">
+                        <i class="fa-solid fa-check-circle"></i>
+                        <div class="about-feature-text">
+                            <strong>Modern Design</strong>
+                            <span>User-centric approach</span>
+                        </div>
+                    </div>
+                    <div class="about-feature">
+                        <i class="fa-solid fa-check-circle"></i>
+                        <div class="about-feature-text">
+                            <strong>Fast Delivery</strong>
+                            <span>On-time, every time</span>
+                        </div>
+                    </div>
+                    <div class="about-feature">
+                        <i class="fa-solid fa-check-circle"></i>
+                        <div class="about-feature-text">
+                            <strong>24/7 Support</strong>
+                            <span>Always here to help</span>
+                        </div>
+                    </div>
+                </div>
 
-   <!-- section 3 start -->
-   <section class="section5">
-      <div>
-         <a href="">
-            <button>Upwork</button>
-         </a>
-      </div>
+                <a href="pages/about.html" class="btn btn-primary">
+                    Learn More About Me
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
 
-      <div>
-         <a href="">
-            <button>Upwork</button>
-         </a>
-      </div>
+    <!-- Skills Section -->
+    <section class="skills section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">What I Do</span>
+                <h2 class="section-title">My Expertise</h2>
+                <p class="section-subtitle">
+                    I bring a diverse skill set to every project, ensuring comprehensive solutions
+                    that meet all your digital needs.
+                </p>
+            </div>
 
-      <div>
-         <a href="">
-            <button>Upwork</button>
-         </a>
-      </div>
-   </section>
-   <!-- section 3 start -->
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Building responsive, fast, and scalable web applications using modern technologies.</p>
+                </div>
 
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fa-solid fa-palette"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Creating intuitive interfaces and seamless user experiences that delight users.</p>
+                </div>
 
-   <!-- contact start -->
-   <section class="section6">
-      <h2 class="section6Heading">Contact Us</h2>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fa-solid fa-mobile-screen"></i>
+                    </div>
+                    <h3>Mobile Apps</h3>
+                    <p>Developing cross-platform mobile applications that work flawlessly on all devices.</p>
+                </div>
 
-      <form>
-         <div>
-            <input type="text" placeholder="First Name" required>
-            <input type="text" placeholder="Last Name" required>
-         </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    </div>
+                    <h3>Brand Identity</h3>
+                    <p>Crafting memorable brand identities that resonate with your target audience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-         <div>
-            <input type="email" placeholder="Enter You email" required>
-         </div>
+    <!-- Portfolio Section -->
+    <section class="portfolio section" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">My Work</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">
+                    Take a look at some of my recent projects that showcase my skills and expertise.
+                </p>
+            </div>
 
-         <div>
-            <textarea name="" id="" rows="7"></textarea>
-         </div>
+            <div class="portfolio-filters">
+                <button class="portfolio-filter active">All</button>
+                <button class="portfolio-filter">Web Design</button>
+                <button class="portfolio-filter">Development</button>
+                <button class="portfolio-filter">Branding</button>
+            </div>
 
-         <div class="formbtnarea">
-            <input type="submit" value="Submit" class="btn">
-         </div>
-      </form>
-   </section>
-   <!-- contact end -->
+            <div class="portfolio-grid">
+                <div class="portfolio-card">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600"
+                        alt="E-commerce Platform">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Web Development</span>
+                        <h3 class="portfolio-title">E-Commerce Platform</h3>
+                        <a href="#" class="portfolio-link">
+                            View Project <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
 
-   <!-- footer -->
-   <footer>
-      <iframe
-         src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d26451.05180106864!2d71.6341248!3d34.034084400000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1768668137006!5m2!1sen!2s"
-         width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
-         referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="portfolio-card">
+                    <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600"
+                        alt="Brand Identity">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Branding</span>
+                        <h3 class="portfolio-title">Tech Startup Branding</h3>
+                        <a href="#" class="portfolio-link">
+                            View Project <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
 
-      <iframe width="951" height="535" src="https://www.youtube.com/embed/YLjopoEnPi8"
-         title="Lovable FULL Tutorial - For COMPLETE Beginners (No Experience Needed)" frameborder="0"
-         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-   </footer>
+                <div class="portfolio-card">
+                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=600"
+                        alt="Mobile App">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Mobile App</span>
+                        <h3 class="portfolio-title">Fitness Tracking App</h3>
+                        <a href="#" class="portfolio-link">
+                            View Project <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600"
+                        alt="Dashboard Design">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">UI/UX Design</span>
+                        <h3 class="portfolio-title">Analytics Dashboard</h3>
+                        <a href="#" class="portfolio-link">
+                            View Project <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <img src="https://images.unsplash.com/photo-1559028012-481c04fa702d?w=600"
+                        alt="Website Redesign">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Web Design</span>
+                        <h3 class="portfolio-title">Corporate Website</h3>
+                        <a href="#" class="portfolio-link">
+                            View Project <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="portfolio-card">
+                    <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=600"
+                        alt="App Development">
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Development</span>
+                        <h3 class="portfolio-title">SaaS Application</h3>
+                        <a href="#" class="portfolio-link">
+                            View Project <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Career Path</span>
+                <h2 class="section-title">Work Experience</h2>
+                <p class="section-subtitle">
+                    My professional journey has equipped me with diverse skills and experiences.
+                </p>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2024 - Present</span>
+                        <h3>Senior Developer</h3>
+                        <h4>ABC Software Solutions</h4>
+                        <p>Leading development teams and architecting scalable solutions for enterprise clients.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2023 - 2024</span>
+                        <h3>Full Stack Developer</h3>
+                        <h4>XYZ Tech Inc.</h4>
+                        <p>Developed and maintained web applications using React, Node.js, and cloud technologies.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2022 - 2023</span>
+                        <h3>Frontend Developer</h3>
+                        <h4>Digital Agency Co.</h4>
+                        <p>Created responsive websites and interactive user interfaces for various clients.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2021 - 2022</span>
+                        <h3>Junior Developer</h3>
+                        <h4>StartUp Hub</h4>
+                        <p>Started my career building web applications and learning industry best practices.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Testimonials</span>
+                <h2 class="section-title">What Clients Say</h2>
+                <p class="section-subtitle">
+                    Don't just take my word for it. Here's what my clients have to say about working with me.
+                </p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Munim delivered exceptional work on our e-commerce platform. His attention to detail
+                        and technical expertise exceeded our expectations. Highly recommended!"
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="John Smith">
+                        <div class="testimonial-author-info">
+                            <h4>John Smith</h4>
+                            <span>CEO, TechStart Inc.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Working with Munim was a pleasure. He understood our vision perfectly and
+                        delivered a stunning website that has significantly improved our online presence."
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah Johnson">
+                        <div class="testimonial-author-info">
+                            <h4>Sarah Johnson</h4>
+                            <span>Marketing Director, Brand Co.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Munim's expertise in both design and development made him the perfect choice for
+                        our project. The results speak for themselves - our conversions increased by 40%!"
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Michael Chen">
+                        <div class="testimonial-author-info">
+                            <h4>Michael Chen</h4>
+                            <span>Founder, GrowthLabs</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta section">
+        <div class="container">
+            <h2 class="cta-title">Ready to Start Your Project?</h2>
+            <p class="cta-text">
+                Let's work together to bring your ideas to life. I'm currently available for
+                freelance projects and full-time opportunities.
+            </p>
+            <div class="cta-buttons">
+                <a href="pages/contact.html" class="btn btn-white">
+                    <i class="fa-solid fa-envelope"></i>
+                    Get In Touch
+                </a>
+                <a href="pages/services.html" class="btn btn-secondary" style="border-color: rgba(255,255,255,0.3); color: white;">
+                    <i class="fa-solid fa-briefcase"></i>
+                    View Services
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="nav-logo">
+                        <img src="https://w7.pngwing.com/pngs/786/126/png-transparent-logo-contracting-photography-logo-symbol.png"
+                            alt="Munim Logo">
+                        <span class="nav-logo-text">Munim</span>
+                    </a>
+                    <p>Crafting digital experiences that inspire, engage, and deliver results. Let's build something amazing together.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="pages/about.html">About</a></li>
+                        <li><a href="pages/services.html">Services</a></li>
+                        <li><a href="pages/contact.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="pages/services.html">Web Development</a></li>
+                        <li><a href="pages/services.html">UI/UX Design</a></li>
+                        <li><a href="pages/services.html">Mobile Apps</a></li>
+                        <li><a href="pages/services.html">Branding</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Contact</h4>
+                    <ul class="footer-links">
+                        <li><a href="mailto:hello@munim.dev">hello@munim.dev</a></li>
+                        <li><a href="tel:+1234567890">+1 (234) 567-890</a></li>
+                        <li><a href="#">Peshawar, Pakistan</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="footer-copyright">&copy; 2026 Munim. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/1234567890" class="whatsapp-float" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Simple Navbar Scroll Script -->
+    <script>
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
 </body>
 
 </html>
